@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-1920x1080/activity_registro.xml" value="0.328125" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-h420dp/activity_registro.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-large/activity_inicia_sesion.xml" value="0.373046875" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-large/activity_main.xml" value="0.373046875" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-large/activity_registro.xml" value="0.5580159433126661" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-normal/activity_inicia_sesion.xml" value="0.33" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-normal/activity_main.xml" value="0.4973958333333333" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-normal/activity_recycler_oposiciones.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-small/activity_inicia_sesion.xml" value="0.4973958333333333" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-small/activity_main.xml" value="0.9235772357723577" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-small/activity_registro.xml" value="0.44375" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-small/row_examen.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-small/row_oposiciones.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-xhdpi/activity_registro.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-xlarge/activity_inicia_sesion.xml" value="0.373046875" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout-xlarge/activity_main.xml" value="0.373046875" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_admin.xml" value="0.55" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_general_test.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_inicia_sesion.xml" value="0.33" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_main.xml" value="0.75" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_modelo_examen2.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_oposiciones_general.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_perfil.xml" value="0.5456410256410257" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_recycler_autoescuela.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_registro.xml" value="0.4973958333333333" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_scrolling.xml" value="0.55" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_splash_screen.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/activity_tus_examenes.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/especialidades_card.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/featured_card_desing.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/opos_por_ca.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/layout/row_auto.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/menu/menu.xml" value="0.55" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/menu/menuabajo.xml" value="0.55" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/menu/menucontacto.xml" value="0.55" />
+        <entry key="..\:/Users/eduar/AndroidStudioProjects/Opositest/app/src/main/res/menu/menugeneral.xml" value="0.55" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

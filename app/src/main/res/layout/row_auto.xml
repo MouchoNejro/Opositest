@@ -1,0 +1,33 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp">
+
+    <RelativeLayout
+        android:id="@+id/relative_espec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewAuto"
+            android:layout_width="77dp"
+            android:layout_height="84dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/acab"></ImageView>
+
+        <TextView
+            android:id="@+id/tvAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="27dp"
+            android:layout_toRightOf="@id/imageViewAuto"
+            android:fontFamily="@font/muli_semibold"
+            android:text="Carnet B"
+            android:textSize="20dp" />
+        />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

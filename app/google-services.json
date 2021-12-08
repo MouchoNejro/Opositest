@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "365756052423",
+    "firebase_url": "https://testeando-5374d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "testeando-5374d",
+    "storage_bucket": "testeando-5374d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365756052423:android:01c5a69e1be073b7b05fe2",
+        "android_client_info": {
+          "package_name": "com.example.Testeando"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365756052423-fofaih2916jmp6jlnmdm92q5qphspi37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Testeando",
+            "certificate_hash": "fd1a66c8b5449df8e36658b1fc43c85bcac86278"
+          }
+        },
+        {
+          "client_id": "365756052423-2hok3r90soavauqjbrc3le7remlrle8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaowLU2Ry3H018M2vTVRyIYP73IRZ399I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365756052423-2hok3r90soavauqjbrc3le7remlrle8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

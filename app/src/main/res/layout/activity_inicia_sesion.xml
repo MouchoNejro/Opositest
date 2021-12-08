@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado"
+    android:orientation="vertical"
+    android:transitionName="transition_login"
+    tools:context=".activitys.Registro">
+
+
+
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cormorant_unicase_semibold"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:text="¡HOLA!"
+        android:textColor="#000"
+        android:textSize="35.6sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvBienvenida2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cormorant_unicase_semibold"
+        android:padding="10dp"
+        android:text="NOS ALEGRA VERTE "
+        android:textColor="#000"
+        android:textSize="35.6sp">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/tvIndicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cormorant_unicase_semibold"
+        android:text="Inicia sesión para continuar"
+        android:textColor="#000"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#00000000"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/edtcorreo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/minimails"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/muli_black"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:padding="10dp">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/edtpass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/minipass"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/muli_black"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            app:passwordToggleEnabled="true">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+        <CheckBox
+            android:id="@+id/cbRecuerdame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNombre"
+            android:fontFamily="@font/cormorant_unicase_semibold"
+            android:layout_gravity="center"
+            android:text="Recuérdame"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btninicia"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/custom_btn2"
+            android:fontFamily="@font/cormorant_unicase_semibold"
+            android:text="Inciar sesion"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnrecuperar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:elevation="0dp"
+            android:fontFamily="@font/cormorant_unicase_semibold"
+            android:text="¿Y mi contraseña?" />
+
+        <Button
+            android:id="@+id/btnHaciaRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#0000"
+            android:fontFamily="@font/cormorant_unicase_semibold"
+            android:text="¿Primera vez? Registrate :)" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

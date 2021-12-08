@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/perfil"
+        android:title="Mi Perfil"
+        android:icon="@drawable/usermenu"/>
+
+    <item
+        android:id="@+id/notificacion"
+        android:title="Notificaciones"
+        />
+
+
+    <item
+        android:id="@+id/formate"
+        android:title="Formate"
+        />
+
+
+    <item
+        android:id="@+id/contacto"
+        android:title="Contacto"
+       />
+
+
+    <item
+        android:id="@+id/preguntasfrec"
+        android:title="Preguntas frecuentes"
+        />
+
+    <item
+        android:id="@+id/legal"
+        android:title="Avisos legales"
+        />
+
+    <item
+        android:id="@+id/cerrar"
+        android:icon="@drawable/cerrartool"
+        android:title="Cerrar Sesión" />
+
+</menu>

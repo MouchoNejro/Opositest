@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="409dp"
+        android:layout_height="92dp"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <Button
+            android:id="@+id/btnacabatest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/custom_btn2"
+            android:text="CORREGIR TEST"
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/tvpunt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvpunt"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvpunt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvpunt2"
+            android:text="/30"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvpunt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="84dp"
+            android:layout_toRightOf="@+id/btnacabatest"
+            android:text="Puntuacion = "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvcron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvpunt"
+            android:layout_marginLeft="84dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/btnacabatest"
+            android:text="00:00"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="416dp"
+        android:layout_height="638dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="20dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="50dp"
+            tools:context=".Examen.ModeloExamen2">
+
+            <TextView
+                android:id="@+id/tvpregunta1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Pregunta numero 1"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp1r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp1r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp1r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+                <RadioButton
+                    android:id="@+id/rbtnp1r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tvpregunta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 2"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rgr2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp2r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp2r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp2r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+                <RadioButton
+                    android:id="@+id/rbtnp2r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tvpregunta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 3"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rgr3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp3r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp3r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp3r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+                <RadioButton
+                    android:id="@+id/rbtnp3r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tvpregunta4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 4"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rgr4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp4r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp4r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp4r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+                <RadioButton
+                    android:id="@+id/rbtnp4r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 5"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp5r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp5r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp5r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+                <RadioButton
+                    android:id="@+id/rbtnp5r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 6"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp6r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp6r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp6r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+                <RadioButton
+                    android:id="@+id/rbtnp6r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 7"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp7r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp7r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp7r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+                <RadioButton
+                    android:id="@+id/rbtnp7r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tvpregunta8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 8"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp8r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp8r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp8r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp8r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 9"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp9r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp9r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp9r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp9r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 10"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp10r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp10r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp10r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp10r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tvpregunta11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 11"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp11r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp11r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp11r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp11r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 12"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp12r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp12r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp12r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp12r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 13"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp13r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp13r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp13r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp13r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 14"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp14r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp14r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp14r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp14r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 15"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp15r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp15r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp15r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp15r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 16"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr16"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp16r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp16r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp16r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp16r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 17"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr17"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp17r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp17r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp17r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp17r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 18"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr18"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp18r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp18r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp18r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp18r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 19"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr19"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp19r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp19r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp19r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp19r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 20"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp20r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp20r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp20r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp20r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 21"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp21r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp21r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp21r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp21r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 22"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp22r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp22r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp22r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp22r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 23"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr23"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp23r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp23r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp23r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp23r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 24"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr24"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp24r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp24r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp24r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp24r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 25"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr25"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp25r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp25r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp25r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp25r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 26"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr26"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp26r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp26r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp26r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp26r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 27"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr27"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp27r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp27r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp27r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp27r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 28"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp28r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp28r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp28r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp28r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 29"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr29"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp29r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp29r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp29r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp29r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvpregunta30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="Pregunta numero 30"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rgr30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtnp30r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 1" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp30r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 2" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp30r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 3" />
+
+                <RadioButton
+                    android:id="@+id/rbtnp30r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Respuesta 4" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

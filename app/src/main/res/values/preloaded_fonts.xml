@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/architects_daughter</item>
+        <item>@font/cagliostro</item>
+        <item>@font/chango</item>
+        <item>@font/convergence</item>
+        <item>@font/cormorant_bold</item>
+        <item>@font/cormorant_unicase_semibold</item>
+        <item>@font/muli_black</item>
+        <item>@font/muli_semibold</item>
+    </array>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.Perfil">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/degradado"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imagenperfil"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="TODO"
+            android:src="@drawable/usermenu" />
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imagenperfil"
+            android:fontFamily="@font/muli_black"
+            android:includeFontPadding="false"
+
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNombre"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/imagenperfil"
+            android:fontFamily="@font/muli_black"
+            android:includeFontPadding="false"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:hint="Nombre completo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/mini"
+                android:drawablePadding="10dp"
+                android:editable="false"
+                android:fontFamily="@font/muli_semibold" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="E-Mail">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mailprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/minimails"
+                android:drawablePadding="10dp"
+                android:editable="false"
+                android:fontFamily="@font/muli_semibold"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Teléfono"
+            app:fontFamily="@font/cagliostro">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/telefperfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/miniphone"
+                android:drawablePadding="10dp"
+                android:editable="false"
+                android:fontFamily="@font/muli_semibold" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Curso actual"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnmodif"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn2"
+            android:fontFamily="@font/muli_semibold"
+            android:text="Buscar Imagen"
+            android:textColor="#fff" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/btnupload"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_semibold"
+            android:background="@drawable/custom_btn2"
+            android:textColor="#fff"
+            android:text="Subir Imagen"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
